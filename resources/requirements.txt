@@ -1,6 +1,9 @@
-numpy
-scipy
-matplotlib
-pyserial
-rplidar-roboticia
+# IMU test requirements (separate from SLAM viewer requirements).
+# Install in your venv with:  pip install -r imu_requirements.txt
+#
+# pololu_usb_i2c_adapter is not on PyPI - install from GitHub:
+#   pip install git+https://github.com/pololu/pololu-usb-i2c-adapter.git#subdirectory=python
+
 websockets
+pyserial
+adafruit-circuitpython-bno055
